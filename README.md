@@ -22,3 +22,8 @@ run predict.py
 1、预测指定的路径为上一步生成的文件夹内指向--> train_val_test/test.txt.    
 2、还要修改predict下save_path的路径信息，此处作为预测好的照片的存储路径。  
   
+Reference  
+---------
+  
+https://github.com/bubbliiiing/ssd-pytorch
+ 
