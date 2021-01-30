@@ -3,7 +3,7 @@
   
 说明：  
 1、backbone使用了mobilenet-v1结构；  
-2、ssd的38x38feature map提取自mobilenet网络的第五个dw层；  
+2、ssd的38x38feature map提取自mobilenet网络的第5个dw层；  
 3、ssd的19x19feature map提取自mobilenet网络的第13个dw层；  
 4、第13层之后的结构没有使用；  
 5、第10个dw层未使用；  
@@ -21,3 +21,4 @@ run one_click.py
 run predict.py  
 1、预测指定的路径为上一步生成的文件夹内指向--> train_val_test/test.txt.    
 2、还要修改predict下save_path的路径信息，此处作为预测好的照片的存储路径。  
+  
