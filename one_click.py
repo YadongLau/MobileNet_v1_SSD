@@ -45,11 +45,6 @@ def convert_annotation(image_id, list_file):
         list_file.write(" " + ",".join([str(a) for a in b]) + ',' + str('1'))
 
 if __name__ == "__main__":
-    print('=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=')
-    print('                  西瞳智能AI训练软件                    ')
-    print('=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=')
-    print(" ")
-    print(" ")
     path_dir=''
     with open('cfg.json', encoding='utf-8') as F:
         json_file = json.load(F)
